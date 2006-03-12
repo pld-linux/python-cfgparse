@@ -10,7 +10,7 @@ Version:	%{ver}
 Release:	1
 License:	distrubutable	
 Group:		Libraries/Python
-Source0:	http://dl.sourceforge.net/sourceforge/cfgparse/%{module}-%{_ver}.tar.gz
+Source0:	http://dl.sourceforge.net/cfgparse/%{module}-%{_ver}.tar.gz
 # Source0-md5:	9add1b0bbf828f7c7383407cdeefea94
 URL:		http://cfgparse.sourceforge.net/
 BuildRequires:	python >= 2.3
