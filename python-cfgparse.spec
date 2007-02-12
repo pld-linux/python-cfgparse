@@ -4,7 +4,7 @@
 %define		ver	%(echo %{_ver} | sed -e 's@^v0@@' -e 's@_@.@g')
 #
 Summary:	Python configuration file parser module
-Summary(pl):	Modu≥ Pythona do parsowania plikÛw konfiguracyjnych
+Summary(pl.UTF-8):   Modu≈Ç Pythona do parsowania plik√≥w konfiguracyjnych
 Name:		python-cfgparse
 Version:	%{ver}
 Release:	1
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Python configuration file parser module.
 
-%description -l pl
-Modu≥ Pythona do parsowania plikÛw konfiguracyjnych.
+%description -l pl.UTF-8
+Modu≈Ç Pythona do parsowania plik√≥w konfiguracyjnych.
 
 %prep
 %setup -q -n %{module}-%{_ver}
