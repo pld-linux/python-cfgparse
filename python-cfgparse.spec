@@ -4,7 +4,7 @@
 %define		ver	%(echo %{_ver} | sed -e 's@^v0@@' -e 's@_@.@g')
 #
 Summary:	Python configuration file parser module
-Summary(pl.UTF-8):   Moduł Pythona do parsowania plików konfiguracyjnych
+Summary(pl.UTF-8):	Moduł Pythona do parsowania plików konfiguracyjnych
 Name:		python-cfgparse
 Version:	%{ver}
 Release:	1
