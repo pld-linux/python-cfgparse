@@ -7,7 +7,7 @@ Summary:	Python configuration file parser module
 Summary(pl.UTF-8):	Moduł Pythona do parsowania plików konfiguracyjnych
 Name:		python-cfgparse
 Version:	%{ver}
-Release:	3
+Release:	4
 License:	distrubutable	
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/cfgparse/%{module}-%{_ver}.tar.gz
