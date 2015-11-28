@@ -32,8 +32,7 @@ Moduł Pythona do parsowania plików konfiguracyjnych.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-python ./setup.py install \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 # make python *.pyo files
 %{py_ocomp} $RPM_BUILD_ROOT%{py_sitescriptdir}
